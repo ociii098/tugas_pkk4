@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    /*padding: 20px 0;*/
+    color:#047b7b;
+    height: 70px;
+    align-items: center;
+}
+
+nav .logo {
+    font-family: 'Pacifico';
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width:40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color:#047b7b;
+    text-decoration: none;
+}
+.cok{
+    text-align: left;
+}
+
+.euy{
+    text-align: center;
+}
